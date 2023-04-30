@@ -1,0 +1,8 @@
+//clonar archivo del gitHub
+--git clone (pegamos url de nuestra carpeta git)
+
+//guardar archivo o carpetas en nuestro git clonado
+--git status	//muestra el estado de nuestra estacion del git
+--git log	//muetsra los registros historicos
+--git commit -m "añadir cualquier texto"	//ingresar nombre de registro historico del git
+--git push origin main		//subir el archivo completamente
