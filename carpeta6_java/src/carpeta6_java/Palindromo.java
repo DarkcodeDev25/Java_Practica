@@ -10,7 +10,16 @@ import java.util.Scanner;
  */
 public class Palindromo {
     public static void main(String[] args) {
-        
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese cadena :");
+        String cadena = leer.nextLine();
+        if(esPalindromo(cadena)){
+            System.out.println("====================");
+            System.out.println("es palindromo");
+        }else{
+            System.out.println("====================");
+            System.out.println("no es palindromo");
+        }
     }
     static boolean esPalindromo(String cadena){
         cadena=cadena.replace(" ","");

@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class primalidad {
     public static void main(String[] args) {
         Scanner leer=new Scanner(System.in);
+        System.out.println("Ingrese un numero :");
         int numero=leer.nextInt();
         if(primo(numero)){
             System.out.println("============");
