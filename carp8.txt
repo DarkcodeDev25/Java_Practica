@@ -1,0 +1,29 @@
+public class claseObjetos {
+    //clase persona esta vinculada con la clase claseObjetos
+    public static void main(String[] args) {
+        persona persona1;
+        persona1=new persona();
+        
+        persona1.nombre="kenshin";
+        persona1.edad=23;
+        persona1.mostrarDatos();
+        
+        persona persona2 = new persona();
+        persona2.nombre="cindy";
+        persona2.edad=18;
+        persona2.mostrarDatos();
+    }
+    
+}
+
+---------------------------------------------------------------
+public class persona {
+    String nombre;
+    int edad;
+    
+    void mostrarDatos(){
+        System.out.println("nombre :" + nombre);
+        System.out.println("edad : " + edad);
+    }
+    
+}
